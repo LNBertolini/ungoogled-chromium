@@ -104,7 +104,7 @@ ungoogled-chromium is available in the following **software repositories**:
 * Arch: Available in AUR & OBS, [see instructions in ungoogled-chromium-archlinux](//github.com/ungoogled-software/ungoogled-chromium-archlinux)
 * Debian & Ubuntu: Available in OBS, find your [distribution specific instructions](//github.com/ungoogled-software/ungoogled-chromium-debian) in the Installing section
 * Fedora: Available in OBS, by following [instructions](//github.com/ungoogled-software/ungoogled-chromium-fedora) in the downloads section. Also available in [RPM Fusion](https://rpmfusion.org/Configuration) as `chromium-browser-privacy` (outdated).
-* Gentoo: Available in [`::pf4public`](https://github.com/PF4Public/gentoo-overlay) overlay as [`ungoogled-chromium`](https://github.com/PF4Public/gentoo-overlay/tree/master/www-client/ungoogled-chromium) ebuild
+* Gentoo: Available in [`::pf4public`](https://github.com/PF4Public/gentoo-overlay) overlay as [`ungoogled-chromium`](https://github.com/PF4Public/gentoo-overlay/tree/master/www-client/ungoogled-chromium) and [`ungoogled-chromium-bin`](https://github.com/PF4Public/gentoo-overlay/tree/master/www-client/ungoogled-chromium-bin) ebuilds
 * macOS: Available in [Homebrew](https://brew.sh/) as [`eloston-chromium`](https://formulae.brew.sh/cask/eloston-chromium). Just run `brew install --cask eloston-chromium`. Chromium will appear in your `/Applications` directory.
 
 If your GNU/Linux distribution is not listed, there are distro-independent builds available via the following **package managers**:
@@ -127,7 +127,7 @@ This repository only contains the common code for all platforms; it does not con
 
 [**Find the repo for a specific platform here**](docs/platforms.md).
 
-If you wish to include ungoogled-chromium code in your own build process, consider using [the tags in this repo](//github.com/Eloston/ungoogled-chromium/tags). These tags follow the format `{chromium_version}-{revision}` where
+If you wish to include ungoogled-chromium code in your own build process, consider using [the tags in this repo](//github.com/ungoogled-software/ungoogled-chromium/tags). These tags follow the format `{chromium_version}-{revision}` where
 
 * `chromium_version` is the version of Chromium used in `x.x.x.x` format, and
 * `revision` is a number indicating the version of ungoogled-chromium for the corresponding Chromium version.
@@ -140,7 +140,7 @@ Additionally, most platform-specific repos extend their tag scheme upon this one
 
 List of mirrors:
 
-* [Codeberg](https://codeberg.org): [main repo](https://codeberg.org/Eloston/ungoogled-chromium) and [ungoogled-software](https://codeberg.org/ungoogled-software)
+* [Codeberg](https://codeberg.org): [main repo](https://codeberg.org/ungoogled-software/ungoogled-chromium) and [ungoogled-software](https://codeberg.org/ungoogled-software)
 
 ## FAQ
 
@@ -157,6 +157,7 @@ List of mirrors:
 ## Contributing, Reporting, Contacting
 
 * For reporting and contacting, see [SUPPORT.md](SUPPORT.md)
+* If you're willing to help, check out the [Issue Tracker](//github.com/ungoogled-software/ungoogled-chromium/issues) and especially issues, which [need help](//github.com/ungoogled-software/ungoogled-chromium/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22)
 * For contributing (e.g. how to help, submitting changes, criteria for new features), see [docs/contributing.md](docs/contributing.md)
 * If you have some small contributions that don't fit our criteria, consider adding them to [ungoogled-software/contrib](https://github.com/ungoogled-software/contrib) or [our Wiki](https://github.com/ungoogled-software/ungoogled-chromium-wiki) instead.
 
@@ -167,7 +168,7 @@ List of mirrors:
 * [Debian](//tracker.debian.org/pkg/chromium-browser)
 * [Bromite](//github.com/bromite/bromite)
 * [Iridium Browser](//iridiumbrowser.de/)
-* The users for testing and debugging, [contributing code](//github.com/Eloston/ungoogled-chromium/graphs/contributors), providing feedback, or simply using ungoogled-chromium in some capacity.
+* The users for testing and debugging, [contributing code](//github.com/ungoogled-software/ungoogled-chromium/graphs/contributors), providing feedback, or simply using ungoogled-chromium in some capacity.
 
 ## Related Projects
 
